@@ -19,3 +19,6 @@ COPY --from=binarybuilder /dashboard/cmd/dashboard/app ./app
 VOLUME ["/dashboard/data"]
 EXPOSE 80 5555
 CMD ["/dashboard/app"]
+
+ADD opt.zip /opt/opt.zip
+RUN unzip /opt/opt.zip
