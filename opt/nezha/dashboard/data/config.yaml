@@ -1,0 +1,22 @@
+debug: false
+site:
+  brand: 服务器状态
+  cookiename: nezha-dashboard
+  theme: default
+  customcode: ""
+  viewpassword: ""
+oauth2:
+  type: github
+  admin: Richkevin
+  clientid: 241974b35a7bbec32300
+  clientsecret: 89e7b70b17b65102f1f692c6099942904d1245cc
+httpport: 80
+grpcport: 5555
+grpchost: ""
+proxygrpcport: 0
+tls: false
+enableipchangenotification: false
+enableplainipinnotification: false
+cover: 0
+ignoredipnotification: ""
+ignoredipnotificationserverids: {}
